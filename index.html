@@ -16,26 +16,26 @@
   <body>
 
 
-  	<div class="row">
-      <div class="col s12">This div is 12-columns wide on all screen sizes</div>
-      <div class="col s6">6-columns (one-half)
-<h1 id="clock"></h1>
-      </div>
-      <div class="col s6">6-columns (one-half)
-<img class="" src="img/britneyspears_42824661_2007733522851669_1858234706708093629_n.jpg" />
+  	<div class="col center">
+      	<div class="col s12">
+      		<div class="a-side col s12 m12">
+				<h1 class="center"id="clock"></h1>
+      		</div>
+      		<div class="b-side">
+				<img class="" src="img/sa44310974_10156828589068234_3002315069141811200_o.jpg" height="100%" width="100%"/>
+      		</div>
       	</div>
-      </div>
     </div>
-          
+        
   	
 
 
-<footer class="footer-copyright">
+	<footer class="footer-copyright">
             <div class="container text-center">
             Copyright 2018 Code: Sabrina Andrade | Design: Sabrina Andrade
             </div>
 
-</footer>
+	</footer>
 <script type="text/javascript">      	
 // Set the date we're counting down to
 var countDownDate = new Date("Feb 13, 2019 20:00:25").getTime();
@@ -56,13 +56,16 @@ var x = setInterval(function() {
     var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
     // Output the result in an element with id="clock"
-    document.getElementById("clock").innerHTML = days + "days " + hours + "hours "
-    + minutes + "min " + seconds + "sec ";
+    document.getElementById("clock").innerHTML = days + " days " + hours + " hours "
+    + minutes + " min " + seconds + " sec ";
     
+
+
+
     // If the count down is over, write some text 
     if (distance < 0) {
         clearInterval(x);
-        document.getElementById("clock").innerHTML = "EXPIRED";
+        document.getElementById("clock").innerHTML = "Now watch me!";
     }
 }, 1000);
 </script>
