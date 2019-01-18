@@ -14,6 +14,16 @@ body{
 .a-side{
 	min-height: 130px;
 }
+.cancel{
+	position: relative;
+	top:300px;
+	font-size: 64px;
+	color: #B50516;
+ 	text-shadow: 3px 1px 2px rgba(255, 0, 0, 1);
+    text-align: center;
+    transform: rotate(14deg);
+	background: rgba(255, 255, 255, 0.9);
+}
 a {
 	text-decoration: none;
 	color:#B50516;
